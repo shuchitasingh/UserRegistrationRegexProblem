@@ -10,12 +10,13 @@ public class Main {
 		LastName lastName =new LastName();
 		Email_Id email_Id = new Email_Id();
 		PhoneNumber phoneNumber = new PhoneNumber();
-		
+		Password password = new Password();
 		
 		firstName.checkPatternFirstName();
 		lastName.checkPatternLastName();
 		email_Id.checkPatternEmailId();
 		phoneNumber.checkPatternPhoneNumber();
+		password.checkPatternPassword();
 	}
 	
 
