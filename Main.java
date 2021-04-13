@@ -8,12 +8,14 @@ public class Main {
 		
 		FirstName firstName = new FirstName();
 		LastName lastName =new LastName();
-		
+		Email_Id email_Id = new Email_Id();
+		PhoneNumber phoneNumber = new PhoneNumber();
 		
 		
 		firstName.checkPatternFirstName();
 		lastName.checkPatternLastName();
 		email_Id.checkPatternEmailId();
+		phoneNumber.checkPatternPhoneNumber();
 	}
 	
 
