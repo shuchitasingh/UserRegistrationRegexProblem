@@ -13,6 +13,7 @@ public class Main {
 		
 		firstName.checkPatternFirstName();
 		lastName.checkPatternLastName();
+		email_Id.checkPatternEmailId();
 	}
 	
 
