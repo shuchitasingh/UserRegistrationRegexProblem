@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public class FirstName {
 
 	public void checkPatternFirstName() {
-		String firstNamePattern = "^[A-Z]{1}[a-z]{2,}$";
+		String firstNamePattern = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
 		Scanner userInput = new Scanner(System.in);
 		System.out.println("enter the First Name: ");
 		String checkPattern = userInput.next();
