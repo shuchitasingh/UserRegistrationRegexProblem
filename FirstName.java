@@ -13,8 +13,8 @@ public class FirstName {
 		String checkPattern = userInput.next();
 
 		if (Pattern.matches(firstNamePattern, checkPattern))
-			System.out.println("Pattern match.");
+			System.out.println("Pattern matching.");
 		else
-			System.out.println("patern match fail! please try again!!!");
+			System.out.println("patern matching fail..");
 	}
 }
