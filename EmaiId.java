@@ -13,8 +13,8 @@ public class EmaiId {
 		String checkPattern = userInput.next();
 
 		if (Pattern.matches(EmailIdPattern, checkPattern))
-			System.out.println("Pattern match.");
+			System.out.println("Pattern matching.");
 		else
-			System.out.println("patern match fail please try again");
+			System.out.println("patern matching fail..");
     }
 }
