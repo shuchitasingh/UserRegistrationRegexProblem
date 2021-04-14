@@ -7,7 +7,7 @@ public class EmaiId {
 
 	
 	public void checkPatternEmailId() {
-		String EmailIdPattern = "^[a-zA-Z0-9]{1,}[.a-zA-Z0-9]*@[a-zA-Z0-9]{1,}((.){1}+)([a-z]{1,3}+)(.[a-z]{2})*$";
+		String EmailIdPattern = "^(?:(?:\\+|0{0,2})91(\\s*[\\-]\\s*)?|[0]?)?[789]\\d{9}$";
 		Scanner userInput = new Scanner(System.in);
 		System.out.println("enter the Email address: ");
 		String checkPattern = userInput.next();
